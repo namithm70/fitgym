@@ -16,7 +16,7 @@ import GoogleCallback from './pages/GoogleCallback'
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-light-bg dark:bg-dark-bg">
         <Navbar />
         <div className="pt-24">
           <Routes>
