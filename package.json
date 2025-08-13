@@ -1,0 +1,26 @@
+{
+  "name": "fitgym",
+  "version": "1.0.0",
+  "description": "AI-powered fitness platform with React frontend and Node.js backend",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend/backend"
+  ],
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "backend": "cd backend/backend && npm start"
+  },
+  "keywords": [
+    "fitness",
+    "ai",
+    "react",
+    "vite",
+    "nodejs",
+    "groq"
+  ],
+  "author": "namit",
+  "license": "MIT"
+}
